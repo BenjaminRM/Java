@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0056)https://www.cs.rit.edu/~csapx/Labs/10/TentsAndTrees.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" type="text/css" href="./CSCI 140_242_ Computer Science AP_X - Lab 10_files/CSn.css">
+    <title>CSCI 140/242: Computer Science AP/X - Lab 10</title>
+</head>
+<body>
+<center>
+    <h1>
+        CSCI-140/242: Computer Science AP/X<br>
+        Lab 10 - Tents and Trees
+    </h1>
+</center>
+
+<h2>Introduction</h2>
+<p>
+	You are in charge of a campground and need to tell campers where they can each pitch a tent.
+	Your campground is a square grid.  Some cells contain a tree, others do not.  Campers
+	want shade, so the tents must be near a tree.  Campers want space, so the tents can't
+	be near each other.  You need to find places for as many tents as there are trees,
+	while satisfying all the criteria of the puzzle!
+</p>
+
+<p>
+	Below is an example of what a tents and trees puzzle looks like initially:
+</p><center>
+	<img src="./CSCI 140_242_ Computer Science AP_X - Lab 10_files/tents1.png" width="250">
+</center>
+<p></p>
+
+<p></p>
+    The rules for the puzzle are as follows:
+
+    <ul>
+    <li>The total number of tents placed must equal the total number of trees.</li>
+    <li>Each tent must be either horizontally or vertically adjacent to a tree.</li>
+    <li>No tent may be horizontally, vertically or diagonally adjacent to another tent.</li>
+    <li>Each row or column must have the exact number of tents specified by the number to
+    the right (row) or bottom (column).</li>
+    </ul>
+<p></p>
+
+<p>
+    Using these rules, the solution to the puzzle above looks like:
+
+</p><center>
+    <img src="./CSCI 140_242_ Computer Science AP_X - Lab 10_files/tents1-sol.png" width="250">
+</center>
+<p></p>
+
+
+<h3>Input Specification</h3>
+
+<p>
+    An initial tent config will be specified on the command line using an ASCII input file.
+    <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents3.txt" target="_blank">Here is a link</a> to the file
+    which corresponds to the picture of the above puzzle's initial configuration.
+</p>
+
+<p>
+    We will use the following characters to represent the various possible
+    input values for a cell:
+
+</p><table border="1" width="20%">
+    <tbody><tr>
+        <td align="center"><b>Symbol</b></td>
+        <td align="center"><b>Meaning</b></td>
+    </tr>
+    <tr>
+        <td align="center"><tt>.</tt></td>
+        <td align="center">Empty</td>
+    </tr>
+    <tr>
+        <td align="center"><tt>%</tt></td>
+        <td align="center">Tree</td>
+    </tr>
+</tbody></table>
+<p></p>
+
+<p>
+    The format of the file is explained with comments "//" at the end of each line.
+
+</p><pre>    4         // the square dimension of the field
+    1 1 1 0   // the row looking values from top to bottom
+    0 2 0 1   // the column looking values from left to right
+    % . . .   // the first row
+    . . % .   // the second row
+    . . . .   // the third row
+    . % . .   // the fourth row
+                                    // extra input that should be ignored
+    A 4x4 grid with the solution:   // ...
+                                    // ...
+     -------                        // ...
+    |% ^ # #|1                      // ...
+    |# # % ^|1                      // ...
+    |# ^ # #|1                      // ...
+    |# % # #|0                      // ...
+     -------                        // ...
+     0 2 0 1                        // ...
+</pre>
+<p></p>
+
+
+<h3>Output Specification:</h3>
+
+<p>
+If there is a solution to the puzzle, it should be displayed.  We will use the following
+characters to represent the various possible output values for a cell:
+
+</p><table border="1" width="20%">
+    <tbody><tr>
+        <td align="center"><b>Symbol</b></td>
+        <td align="center"><b>Meaning</b></td>
+    </tr>
+    <tr>
+        <td align="center"><tt>#</tt></td>
+        <td align="center">Grass</td>
+    </tr>
+    <tr>
+        <td align="center"><tt>^</tt></td>
+        <td align="center">Tent</td>
+    </tr>
+    <tr>
+        <td align="center"><tt>%</tt></td>
+        <td align="center">Tree</td>
+    </tr>
+</tbody></table>
+<p></p>
+
+<p>
+    This output corresponds to the solution for the sample puzzle above.
+
+</p><pre>    Solution:
+     -------
+    |% ^ # #|1
+    |# # % ^|1
+    |# ^ # #|1
+    |# % # #|0
+     -------
+     0 2 0 1
+</pre>
+<p></p>
+
+<p>
+    If there is no solution to the puzzle, the output should just be:
+
+</p><pre>    No solution!
+</pre>
+<p></p>
+
+<h4>Timing Output</h4>
+
+<p>
+    The time it takes to try to solve a puzzle should be displayed, in seconds,
+    regardless if the puzzle has a solution or not:
+
+</p><pre>    Elapsed time: # seconds.
+</pre>
+<p></p>
+
+<h4>Debug Output</h4>
+
+<p>
+    If a debug flag is enabled on the command line, a GUI will come
+    up that displays the sequence of configurations, valid and invalid,
+    that are generated using the backtracking algorithm.
+    <b>This sequence will vary depending on how successors are generated and pruned</b>.
+    You can use the slider with the left/right arrows keys, or the mouse, to
+    cycle through the configurations.  Special thanks goes to
+    <a href="http://dwgpi.student.rit.edu/~pi/tents/debugger.html" target="_blank">David Grzebinski</a>
+    for developing this tool.
+</p><center>
+    <img src="./CSCI 140_242_ Computer Science AP_X - Lab 10_files/debugger.png" width="350">
+</center>
+<p></p>
+
+<p>
+    <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents3-out-debug.txt" target="_blank">Here is an example</a>
+    of the complete debug output of the instructor solution for the sample puzzle.
+    If you prefer to get the debug output from standard output in the same fashion 
+    as this example, you need to uncomment the print line in <tt>Backtracker.java</tt>:
+
+</p><pre>    private void debugPrint(String msg, Configuration config) {
+        if (this.debug) {
+            //System.out.println(msg + ":\n" + config);
+            configLog.add(new Pair&lt;&gt;(config,msg.trim()));
+        }
+    }
+</pre>
+<p></p>
+
+<p>
+    Also note that the GUI debugger uses the 
+    <a href="https://en.wikipedia.org/wiki/JavaFX" target="_blank">Java FX</a>
+    software platform, which requires the use of Java 8.
+</p>
+
+
+<h3>Program Requirements</h3>
+
+<p>
+You will complete this portion of the lab on your own.
+Here are the Javadocs for the program you will develop:
+</p>
+
+<h4>Documentation</h4>
+
+<ul>
+<li>    <a href="https://www.cs.rit.edu/~csapx/Labs/10/doc/TentsAndTrees.html" target="_blank"><tt>TentsAndTrees</tt></a>:  This is the main program, which you should not modify.
+It runs with two required arguments:
+<ol>
+    <li>The name of the input file</li>
+    <li>"true" if debugging is enabled, "false" otherwise</li>
+</ol>
+
+</li><li><a href="https://www.cs.rit.edu/~csapx/Labs/10/doc/Backtracker.html" target="_blank"><tt>Backtracker</tt></a>: This is the backtracking algorithm that was developed
+    in class.  It should not be modified.</li>
+    
+<li>    <a href="https://www.cs.rit.edu/~csapx/Labs/10/doc/Configuration.html" target="_blank"><tt>Configuration</tt></a>:  This is the interface the Backtracker uses for
+    a puzzle's configuration representation.  It should not be modified.</li>
+    
+<li>    <a href="https://www.cs.rit.edu/~csapx/Labs/10/doc/TentConfig.html" target="_blank"><tt>TentConfig</tt></a>: This is the class that is used to represent
+          a configuration in the Tents And Trees
+    puzzle.  It should be written by you.</li>
+</ul>
+
+<p></p>
+
+<h4>Starter Code</h4>
+<p>
+You can download the starter code from <a href="https://www.cs.rit.edu/~csapx/Labs/10/src/code.zip" target="_blank">here</a>.
+</p>
+
+<p>
+For this assignment you must use the provided backtracking algorithm to obtain
+a solution.  You are free to design your <tt>TentConfig</tt> class however
+you see fit.
+
+</p><h4>Pruning</h4>
+
+<p>
+You must do a reasonable amount of pruning in order to receive full credit for 
+this project:
+
+    </p><ul>
+    <li>
+        Each time a tent is placed you must check that there is at least one neighboring tree.
+    </li>
+    <li>
+        Each time a tent is placed you must check that there are no adjacent surrounding tents.
+    </li>
+    <li>
+        When you reach the last cell in the grid, you must:
+        <ul>
+            <li>
+                check that all row and column looking values equal the number of corresponding tents.
+            </li>
+            <li>
+                check that each tree has at least one neighbor tent.
+            </li>
+        </ul>
+    </li>
+    </ul>
+<p></p>
+
+<p>
+    To assist you with measuring the effectiveness of your pruning, we are providing some
+    sample data files for you to test with.  Keep in mind that the speed of your machine
+    is going to influence how long it takes to run the tests, so use these masurements as
+    a "ballpark" figure.
+
+    </p><ul>
+    <li>
+        <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents7.txt" target="_blank"><tt>tents7.txt</tt></a>: A 8x8 puzzle that has a solution.
+        <b>For 20% functionality credit, you should be able to solve this puzzle in under a minute.</b>
+    </li>
+    <li>
+        <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents8.txt" target="_blank"><tt>tents8.txt</tt></a>: A 12x12 puzzle that has a solution.
+        <b>For 5% extra credit, you should be able to solve this puzzle in under a minute.</b>
+    </li>
+    <li>
+        <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents9.txt" target="_blank"><tt>tents9.txt</tt></a>: A 16x16 puzzle that has a solution.
+            <b>For 10% extra credit, you should be able to solve this puzzle in under 2 minutes.</b>
+    </li>
+    <li>
+        <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents10.txt" target="_blank"><tt>tents10.txt</tt></a>: A 20x20 puzzle that has a solution.
+            We will not be testing with this as it is very large and takes more than 5 minutes to
+            solve (with very efficient pruning).  But feel free to see how you do with it.
+    </li>
+
+    </ul>
+<p></p>
+
+<p>
+   <b>Please note! the timings you need to achieve are with debugging disabled (debug flag on command line
+      is set to false).
+      This is done to eliminate the amount of time spent doing output, which can be quite
+      massive for larger puzzles.</b>
+</p>
+
+<h4>Rule Breaking: Each Tree Must Have A Unique Neighbor</h4>
+
+<p>
+    There is one aspect of the tents and trees puzzle that we are not going to have you deal with.
+    It is the rule that each tree have one unique tent "attached" to it.  It turns out that
+    it is insufficient to only 
+    check that each tree has at least one tent next to it.  You also can't
+    reject a configuration where a tree has more than one adjacent tent, because it may be
+    valid.  In the example below, the tree in the top row sees two
+    adjacent tents.  This isn't a problem because it can be seen as being attached
+    to the left tent, while the tree in the bottom row is attached to the
+    right tent.
+
+</p><pre>    ^ % ^ 
+    # # %
+</pre>
+<p></p>
+
+<p>
+    Thanks to <a href="http://www.cs.rit.edu/~atd" target="_blank">Professor Deever</a>,
+    we have an example that shows how this can come about.
+    Take a look at <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents13.txt" target="_blank">this example</a>,
+    and the commentary in it.  Again, we will not test with this kind of example, but
+    you should be aware the problem exists.
+</p>
+
+<h3>Resources</h3>
+
+<p>
+    Backtracking is a concept that a lot of new students have problems picking up.
+    The first hurdle is understanding what exactly is going on.
+    Recall that the
+    <a href="https://www.cs.rit.edu/~csci142/Lectures/09/backtracking.pdf" target="_blank">lecture notes</a>
+    the map coloring problem are at your
+    disposal.  Great effort was put into making those notes so that you can understand
+    the problem and see how it is
+    <a href="https://www.cs.rit.edu/~csci142/Lectures/09/code.zip" target="_blank">implemented in Java</a>.
+</p>
+
+    It is very hard for even a seasoned programmer to write a configuration class
+    for a backtracker correctly on the first try.
+    It requires that you have some pretty good debugging skills (e.g. setting breakpoints
+    and analyzing code).  To begin with, we suggest you work with these two smaller puzzles:
+
+<ul>
+    <li>
+        <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents1.txt" target="_blank"><tt>tents1.txt</tt></a>: A 2x2 puzzle that has a solution.
+    </li>
+    <li>
+        <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents2.txt" target="_blank"><tt>tents2.txt</tt></a>: A 3x3 puzzle that has a solution.
+    </li>
+</ul>
+
+    Do not stop when you have these working.  You should test with puzzles that truly have no solution,
+    as well as the puzzle with the minimal pruning requirement,
+    <a href="https://www.cs.rit.edu/~csapx/Labs/10/data/tents7.txt" target="_blank"><tt>tents7.txt</tt></a>
+<p></p>
+
+
+<h2>Submission</h2>
+<p>
+Submit just your configuration class, <tt>TentConfig.java</tt>, along with your Git log file to <tt>try</tt>.
+It will automatically combine your implementation with all the other provided files that should not
+be modified.  Use the command:
+
+</p><pre>    try csapx-grd lab10-1 TentConfig.java log.txt
+</pre>
+
+Recall that you can verify your submission using the command:
+
+<pre>    try -q csapx-grd lab10-1
+</pre>
+
+
+<h3>Grading</h3>
+
+The grade breakdown for this lab is as follows:
+
+<ul>
+<li>Problem Solving: 15%</li>
+<li>In-Lab Activity: 15%</li>
+<li>Implementation: 70%
+    <ul>
+    <li>Functionality: 50%</li>
+	<li>Design: 10%.  Making a good faith effort to implement all the
+             required methods.</li>
+    <li>Code Style, Commenting &amp; Version Control: 10%</li>
+    <li>Bonus: up to +15% for super effective pruning techniques.</li>
+    </ul>
+</li></ul>
+
+
+</body></html>

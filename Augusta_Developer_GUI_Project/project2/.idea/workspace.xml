@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="project2:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="668e3c33-49ca-4d31-b3e2-91b1147cc436" name="Default" comment="" />
+    <ignored path="project2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="project2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RUNMEDeveloper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/developer/RUNMEDeveloper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AugustaView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/developer/AugustaView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+              <folding>
+                <element signature="method#start#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#addCommands#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#addHBButtons#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createForward#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createTurn#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createIfCrumb#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createIfAccess#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createWhileAccess#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createRepeat#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createEatCrumb#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createDrop#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createNop#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createHalt#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createBegin#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createEnd#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createElse#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#dragAndDrop#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#replaceButton#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#createChoiceButton#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#addRepeatChoiceEvent#0;class#AugustaView#0" expanded="false" />
+                <element signature="method#update#0;class#AugustaView#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AugustaModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/developer/AugustaModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="method#process#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#sortCommands#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#validateCommands#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#checkNumOfHalts#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#parse#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createForward#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createDrop#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createEat#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createHalt#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createNOP#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createTurn#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createCrumb#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createIfBlock#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createWhileBlock#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#createRepeat#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#determineAccess#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#determineDirection#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#save#0;class#AugustaModel#0" expanded="false" />
+                <element signature="method#updateValue#0;class#AugustaModel#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="developer.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/developer/developer.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="121" selection-start-line="23" selection-start-column="121" selection-end-line="23" selection-end-column="121" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/developer/Styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/VisualStatement.java" />
+        <option value="$PROJECT_DIR$/src/Augusta.java" />
+        <option value="$PROJECT_DIR$/src/AugustaStyles" />
+        <option value="$PROJECT_DIR$/src/AugustaStyles.css" />
+        <option value="$PROJECT_DIR$/src/Augustadeveloper.java" />
+        <option value="$PROJECT_DIR$/src/Styles.css" />
+        <option value="$PROJECT_DIR$/src/AugustaView.java" />
+        <option value="$PROJECT_DIR$/src/AugustaModel.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/Drop.java" />
+        <option value="$PROJECT_DIR$/src/augusta/properties/Direction.java" />
+        <option value="$PROJECT_DIR$/src/augusta/properties/Heading.java" />
+        <option value="$PROJECT_DIR$/src/augusta/edu/rit/cs/EnumUtils.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/Eat.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/Forward.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/DoNothing.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/Halt.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/IfBlocks.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/IfCrumb.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/ProgNode.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/Repeat.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/Turn.java" />
+        <option value="$PROJECT_DIR$/src/augusta/tree/While.java" />
+        <option value="$PROJECT_DIR$/src/augusta/interpreter/InAWorld.java" />
+        <option value="$PROJECT_DIR$/src/augusta/interpreter/Reason.java" />
+        <option value="$PROJECT_DIR$/src/augusta/interpreter/ImpossibleMove$Reason.java" />
+        <option value="$PROJECT_DIR$/src/augusta/interpreter/ImpossibleMove.java" />
+        <option value="$PROJECT_DIR$/src/augusta/properties/Access.java" />
+        <option value="$PROJECT_DIR$/src/edu/rit/cs/HMap2Keys.java" />
+        <option value="$PROJECT_DIR$/src/edu/rit/cs/Tuple2.java" />
+        <option value="$PROJECT_DIR$/src/edu/rit/cs/Tuple3.java" />
+        <option value="$PROJECT_DIR$/src/edu/rit/cs/IntRange.java" />
+        <option value="$PROJECT_DIR$/src/edu/rit/cs/EnumUtils.java" />
+        <option value="$PROJECT_DIR$/testing.txt" />
+        <option value="$PROJECT_DIR$/src/developer/Styles.css" />
+        <option value="$PROJECT_DIR$/src/developer/AugustaView.java" />
+        <option value="$PROJECT_DIR$/src/developer/AugustaModel.java" />
+        <option value="$PROJECT_DIR$/src/developer/Augustadeveloper.java" />
+        <option value="$PROJECT_DIR$/src/developer/RUNMEDeveloper.java" />
+        <option value="$PROJECT_DIR$/src/developer/developer.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="developer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Labs/Lab10" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin\Desktop\School_2016_2017\Fall_Semester\IntroductionToCSForTransfers\Projects\project2\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin\Desktop\School_2016_2017\Fall_Semester\IntroductionToCSForTransfers\Projects\project2\src\developer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RUNMEDeveloper">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Augustadeveloper" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/src" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="project2" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Augustadeveloper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="developer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="developer.Augustadeveloper" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="project2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RUNMEDeveloper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="developer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="developer.RUNMEDeveloper" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="project2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="project2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Augustadeveloper" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RUNMEDeveloper" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.RUNMEDeveloper" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Augustadeveloper" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="668e3c33-49ca-4d31-b3e2-91b1147cc436" name="Default" comment="" />
+      <created>1479393844569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1479393844569</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Working on the GUI!">
+      <created>1479776018993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1479776018993</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lots of GUI stuff done, continuing work">
+      <created>1479787412239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1479787412239</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Choices added to repeat, if, while, and turn choice commands.  A number of different methods implemented to keep the GUI scene clean with less stackpanes...">
+      <created>1479830115320</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1479830115320</updated>
+    </task>
+    <task id="LOCAL-00004" summary="All that's left on the Developer side is to create the functionality for the &quot;save&quot; button.  Most if not all GUI work is done by now.">
+      <created>1479875411094</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1479875411094</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Sorting, validating, parsing, and output to file complete">
+      <created>1480208241767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480208241767</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Most implementations completed except for the saving format.">
+      <created>1480257281945</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1480257281945</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Saving completed">
+      <created>1480437583070</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1480437583070</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Error/warning output created with invalid choices">
+      <created>1480438376763</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1480438376763</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Final Developer Product">
+      <created>1480468278183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1480468278183</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2133995" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.145625" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29776675" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working on the GUI!" />
+    <MESSAGE value="Lots of GUI stuff done, continuing work" />
+    <MESSAGE value="Choices added to repeat, if, while, and turn choice commands.  A number of different methods implemented to keep the GUI scene clean with less stackpanes..." />
+    <MESSAGE value="All that's left on the Developer side is to create the functionality for the &quot;save&quot; button.  Most if not all GUI work is done by now." />
+    <MESSAGE value="Sorting, validating, parsing, and output to file complete" />
+    <MESSAGE value="Most implementations completed except for the saving format." />
+    <MESSAGE value="Saving completed" />
+    <MESSAGE value="Error/warning output created with invalid choices" />
+    <MESSAGE value="Final Developer Product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Developer Product" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/developer/RUNMEDeveloper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/developer/AugustaView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="method#start#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#addCommands#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#addHBButtons#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createForward#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createTurn#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createIfCrumb#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createIfAccess#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createWhileAccess#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createRepeat#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createEatCrumb#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createDrop#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createNop#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createHalt#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createBegin#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createEnd#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createElse#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#dragAndDrop#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#replaceButton#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createChoiceButton#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#addRepeatChoiceEvent#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#update#0;class#AugustaView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AugustaStyles.css" />
+    <entry file="file://$PROJECT_DIR$/src/developer/AugustaModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="method#process#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#sortCommands#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#validateCommands#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#checkNumOfHalts#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#parse#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createForward#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createDrop#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createEat#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createHalt#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createNOP#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createTurn#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createCrumb#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createIfBlock#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createWhileBlock#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createRepeat#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#determineAccess#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#determineDirection#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#save#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#updateValue#0;class#AugustaModel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/developer/RUNMEDeveloper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/developer/AugustaView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="method#start#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#addCommands#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#addHBButtons#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createForward#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createTurn#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createIfCrumb#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createIfAccess#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createWhileAccess#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createRepeat#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createEatCrumb#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createDrop#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createNop#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createHalt#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createBegin#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createEnd#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createElse#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#dragAndDrop#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#replaceButton#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createChoiceButton#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#addRepeatChoiceEvent#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#update#0;class#AugustaView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AugustaStyles.css" />
+    <entry file="file://$PROJECT_DIR$/src/developer/AugustaModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="method#process#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#sortCommands#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#validateCommands#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#checkNumOfHalts#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#parse#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createForward#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createDrop#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createEat#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createHalt#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createNOP#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createTurn#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createCrumb#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createIfBlock#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createWhileBlock#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createRepeat#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#determineAccess#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#determineDirection#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#save#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#updateValue#0;class#AugustaModel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VisualStatement.java" />
+    <entry file="file://$PROJECT_DIR$/src/AugustaStyles" />
+    <entry file="file://$PROJECT_DIR$/src/AugustaStyles.css" />
+    <entry file="file://$PROJECT_DIR$/src/While.class" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/properties/Heading.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/interpreter/ImpossibleMove$Reason.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/edu/rit/cs/EnumUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/Drop.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/Forward.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/Eat.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/Halt.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/IfBlocks.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/IfCrumb.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/ProgNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/Repeat.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/Turn.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/interpreter/InAWorld.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/interpreter/ImpossibleMove$Reason.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/properties/Direction.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/DoNothing.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/properties/Access.java" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/tree/While.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/rit/cs/HMap2Keys.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/rit/cs/Tuple3.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/rit/cs/Tuple2.java" />
+    <entry file="file://$USER_HOME$/Downloads/edu/rit/cs/IntRange$AbstractIntRangeIterator.class" />
+    <entry file="file://$USER_HOME$/Downloads/edu/rit/cs/IntRange$DecreasingIterator.class" />
+    <entry file="file://$USER_HOME$/Downloads/edu/rit/cs/IntRange$IncreasingIterator.class" />
+    <entry file="file://$USER_HOME$/Downloads/edu/rit/cs/IntRange$1.class" />
+    <entry file="file://$PROJECT_DIR$/src/edu/rit/cs/IntRange$1.class" />
+    <entry file="file://$PROJECT_DIR$/src/edu/rit/cs/IntRange$AbstractIntRangeIterator.class" />
+    <entry file="file://$PROJECT_DIR$/src/edu/rit/cs/IntRange$DecreasingIterator.class" />
+    <entry file="file://$PROJECT_DIR$/src/augusta/interpreter/ImpossibleMove.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/rit/cs/IntRange.java" />
+    <entry file="file://$PROJECT_DIR$/src/edu/rit/cs/EnumUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/developer/testing.txt" />
+    <entry file="file://$PROJECT_DIR$/testing.txt" />
+    <entry file="file://$PROJECT_DIR$/testing.aug" />
+    <entry file="file://$PROJECT_DIR$/src/developer/Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/developer/developer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="121" selection-start-line="23" selection-start-column="121" selection-end-line="23" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/developer/AugustaModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="method#process#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#sortCommands#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#validateCommands#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#checkNumOfHalts#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#parse#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createForward#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createDrop#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createEat#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createHalt#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createNOP#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createTurn#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createCrumb#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createIfBlock#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createWhileBlock#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#createRepeat#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#determineAccess#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#determineDirection#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#save#0;class#AugustaModel#0" expanded="false" />
+            <element signature="method#updateValue#0;class#AugustaModel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/developer/AugustaView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+          <folding>
+            <element signature="method#start#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#addCommands#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#addHBButtons#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createForward#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createTurn#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createIfCrumb#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createIfAccess#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createWhileAccess#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createRepeat#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createEatCrumb#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createDrop#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createNop#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createHalt#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createBegin#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createEnd#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createElse#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#dragAndDrop#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#replaceButton#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#createChoiceButton#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#addRepeatChoiceEvent#0;class#AugustaView#0" expanded="false" />
+            <element signature="method#update#0;class#AugustaView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/developer/RUNMEDeveloper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>project2:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>project2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>AST</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,94 @@
+.root
+{
+    -fx-background-color: #BDBDBD;
+    -fx-font-weight: bold;
+}
+
+.center_sp
+{
+    -fx-background-color: #BDBCBB;
+}
+
+.left_sp
+{
+    -fx-background-color: #8080ff;
+}
+
+.reset_button
+{
+    -fx-font-size: 20px;
+}
+
+.save_button
+{
+    -fx-font-size: 20px;
+}
+
+.btn_Forward
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_Turn
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_IfCrumb
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_IfAccess
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_WhileAccess
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_Repeat
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_EatCrumb
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_Drop
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_NOP
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_Halt
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_Begin
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_End
+{
+    -fx-background-color: #ff6666;
+}
+
+.btn_Else
+{
+    -fx-background-color: #ff6666;
+}
+.choice_buttons
+{
+    -fx-background-color: #FFFFFF;
+}

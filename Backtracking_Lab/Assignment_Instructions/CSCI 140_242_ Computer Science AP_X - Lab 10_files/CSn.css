@@ -1,0 +1,14 @@
+body { font-family: helvetica }
+p { line-height: 0.5cm; font-size: 14}
+dt { line-height: 0.7cm; font-size: 16}
+dd { line-height: 0.5cm; font-size: 14}
+pm { font-size: 14 }
+pb { font-weight: bold; font-size: 14; color: brown}
+h2 { color: brown}
+h3 { color: brown}
+h4 { color: brown}
+table { font-family: helvetica; font-size: 14 }
+ol { line-height: 0.5cm; font-size: 14 }
+ul { line-height: 0.5cm; font-size: 14 }
+brown { color: brown }
+purple { color: purple }

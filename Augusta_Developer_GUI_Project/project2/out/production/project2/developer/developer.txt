@@ -1,0 +1,24 @@
+Written by Benjamin Mitchell                        |
+11/29/2016                                          |
+Instructions for the Augusta Developer Java Project |
+----------------------------------------------------
+
+All the commands you will need are on the left side of the screen.
+Simply drag and drop the commands onto the right side of the screen (within the border that outlines the right side) to place them within your program.
+	HINT: If you see the command, the command is in your program.  If it dissappears, it was not added.
+Any command with parenthesis is able to be double clicked for more options.  Ex: For the "REPEAT" command, you can select 2-9 for how many times you want it to repeat.
+
+Here are some rules that every program must follow in order to be validated:
+
+	1. Every program MUST end with a HALT command.  Any program with HALT anywhere else but as the last node will not be considered valid.
+
+	2. Ever IF CRUMB, IF ACCESS, WHILE ACCESS, or REPEAT command must begin with a BEGIN command, and end with an END command.
+		EX:
+				REPEAT (3)
+					BEGIN
+					FORWARD
+					END	
+
+	3. Every IF CRUMB and IF ACCESS command does not require an ELSE command, but it may be used to signify there is are items desired for the elsePart.
+
+Once your program command chain is built, simply press the "Save" button.  To Reset the fields, press the "Reset" button.
